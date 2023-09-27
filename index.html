@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+  <div class="container">
+    
+    <div class="instructions">
+      <h2>How to Use the Weather App</h2>
+      <ol>
+        <li>Enter the name of a city in the "Enter location" input field.</li>
+        <li>Select your preferred temperature unit (Celsius or Fahrenheit) from the "Select Unit" dropdown.</li>
+        <li>Click the "Get Weather" button to retrieve the current weather conditions for the specified location.</li>
+      </ol>
+    </div>
+    
+    <h1>Weather App</h1>
+
+    <input type="text" id="locationInput" placeholder="Enter location">
+    <button id="getWeatherBtn">Get Weather</button>
+    
+    <div id="weatherDisplay">
+      <div id="weather-info">
+      </div>
+    </div>
+    
+    <div id="errorDisplay">
+    </div>
+
+    <label for="unitSelect">Select Unit:</label>
+    
+    <select id="unitSelect">
+      <option value="metric">Celsius</option>
+      <option value="imperial">Fahrenheit</option>
+    </select>
+  
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

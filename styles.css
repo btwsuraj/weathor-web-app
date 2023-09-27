@@ -1,0 +1,121 @@
+/* reset css */
+body, h1, h2, p { 
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('weather-background.jpg');
+  background-size: cover;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #007BFF;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.95);
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background 0.3s;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+#weatherDisplay {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+}
+
+#errorDisplay {
+  color: #e74c3c;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+select {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.95);
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Add background and linear gradient to the instructions box */
+.instructions {
+  background: linear-gradient(to bottom, #3494e6, #ec6ead);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: left;
+  font-size: 16px;
+  color: #fff;
+}
+
+.instructions h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.instructions ol {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.instructions li {
+  margin-bottom: 10px;
+}
