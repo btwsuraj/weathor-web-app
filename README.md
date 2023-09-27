@@ -34,6 +34,4 @@
   <h2>API Used</h2>
   <p>The app fetches weather data from the OpenWeatherMap API.</p>
 
-  <h2>Author</h2>
-  <p>[Your Name]</p>
 </body>
